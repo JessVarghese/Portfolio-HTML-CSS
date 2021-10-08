@@ -215,6 +215,11 @@ span.project_name {
     position: relative;
     width: fit-content;
   }
+
+  .work-feature img {
+    width: auto;
+     
+   }
   
 }
 
