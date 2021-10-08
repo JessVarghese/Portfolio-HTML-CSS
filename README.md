@@ -12,7 +12,6 @@ The site is intended to be responsive and meet accessibility standards.
 
 * [Installation](#Installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
 
 
