@@ -178,7 +178,7 @@ span.project_name {
 
 /*Start of the About section */
 
-#About img {
+.About img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -212,27 +212,52 @@ span.project_name {
     width: min-content;
   }
 
+  .work-feature img {
+    width: min-content;
+    
+  }
 
 }
+
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
   header {
     margin-right: -175px;
   }
-
-  section {
-    width: fit-content;
-    margin: 0px;
-  }
  
+  .work-feature img {
+    width: min-content;
+
+  }
 
 }
+  
+    
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+  header {
+    width: max-content;
+  }
   section {
     width: fit-content;
-    margin: 0px;
+  }
+
+  .work-feature img {
+    width: fit-content;
+    
+  }
+
+  .About img {
+    width: 50%;
+  }
+
+  section.About {
+    width: 135%;
+  }
+
+  #contact {
+    width: 135%;
   }
 }
