@@ -1,0 +1,40 @@
+* {
+  font-family: 'Jost', sans-serif;
+}
+
+/* HEADER STYLES */
+
+header {
+  color: white;
+  text-align: center;
+  padding: 20%;
+  background: linear-gradient(90deg, #0e1b25 0%, #2a454b 50%, hsla(207, 41%, 27%, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+nav {
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+  font-size: 24px;
+  padding: 5px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(235, 188, 188);
+}
