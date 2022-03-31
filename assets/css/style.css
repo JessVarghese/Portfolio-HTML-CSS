@@ -1,7 +1,22 @@
 * {
   font-family: 'Jost', sans-serif;
-  color: whitesmoke;
+  
+ 
 }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+
+
 
 /* HEADER STYLES */
 
@@ -13,11 +28,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100%;
+  width: 100%;
 }
 
 h1 {
   font-size: 64px;
+  text-shadow: 4px 4px black;
 }
 
 ul {
@@ -41,22 +58,36 @@ li a:hover {
   color: #98d9d9;
 }
 
+/* ABOUT SECTION */
 
 #about {
   background-color: #98d9d9;
-  
-  
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 #headshot {
-  position: relative; 
-  width: 200px; 
-  height: 200px; 
-  overflow: hidden; 
-  border-radius: 50%;
+  display: inline;
+  font-size: 32px;
+  padding: 10px; 
+ 
 }
 
 #headshot img {
   width: 100%; 
   height: auto;
+}
+
+#about-desc {
+  margin: 20px;
+}
+
+article {
+  font-size: 22px;
 }
