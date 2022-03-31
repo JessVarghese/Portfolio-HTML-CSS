@@ -1,5 +1,6 @@
 * {
   font-family: 'Jost', sans-serif;
+  color: whitesmoke;
 }
 
 /* HEADER STYLES */
@@ -15,8 +16,8 @@ header {
   min-height: 100vh;
 }
 
-nav {
-
+h1 {
+  font-size: 64px;
 }
 
 ul {
@@ -24,9 +25,10 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 li {
   display: inline;
-  font-size: 24px;
+  font-size: 32px;
   padding: 5px;
 }
 
@@ -36,5 +38,25 @@ li a {
 }
 
 li a:hover {
-  background-color: rgb(235, 188, 188);
+  color: #98d9d9;
+}
+
+
+#about {
+  background-color: #98d9d9;
+  
+  
+}
+
+#headshot {
+  position: relative; 
+  width: 200px; 
+  height: 200px; 
+  overflow: hidden; 
+  border-radius: 50%;
+}
+
+#headshot img {
+  width: 100%; 
+  height: auto;
 }
