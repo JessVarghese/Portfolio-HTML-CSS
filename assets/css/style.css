@@ -55,7 +55,7 @@ li a {
 }
 
 li a:hover {
-  color: #98d9d9;
+  color: #ccf0c0;
 }
 
 /* ABOUT SECTION */
@@ -112,10 +112,19 @@ article {
   box-shadow: 1px 2px 3px 4px rgba(12,12,12,0.2);
 }
 
-#about-btn{
-  padding: 10px 10px;
+#about-btn>button{
+  background-color: #7a1f22;
+    border: none;
+    color: white;
+    padding: 11px 50px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
 }
 
-#about-btn:hover {
-  color: #98d9d9;
+
+#about-btn>button:hover {
+  color: #ccf0c0;
 }
