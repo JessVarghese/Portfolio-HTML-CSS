@@ -1,13 +1,13 @@
 * {
   font-family: 'Jost', sans-serif;
-  
- 
+
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
+  background: linear-gradient(90deg, #0e1b25 0%, #2a454b 50%, #294861 100%);
 }
 
 body {
@@ -24,7 +24,7 @@ header {
   color: white;
   text-align: center;
   padding: 20%;
-  background: linear-gradient(90deg, #0e1b25 0%, #2a454b 50%, hsla(207, 41%, 27%, 1) 100%);
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,33 +61,61 @@ li a:hover {
 /* ABOUT SECTION */
 
 #about {
-  background-color: #98d9d9;
-  height: 100%;
-  width: 100%;
+  
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
+  display: inline-block
 }
 
 #headshot {
-  display: inline;
-  font-size: 32px;
-  padding: 10px; 
- 
+
+  padding: 5px;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+
 }
 
 #headshot img {
-  width: 100%; 
-  height: auto;
-}
+  width: 20%;
+  border-radius: 50%;
 
-#about-desc {
-  margin: 20px;
 }
 
 article {
-  font-size: 22px;
+  padding: 10px;
+}
+
+#about-desc {
+  margin: 0px 60px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.container {
+  padding:30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-card {
+  background-color: #e5e9e8;
+  height: 50%;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px 4px rgba(12,12,12,0.2);
+}
+
+#about-btn{
+  padding: 10px 10px;
+}
+
+#about-btn:hover {
+  color: #98d9d9;
 }
