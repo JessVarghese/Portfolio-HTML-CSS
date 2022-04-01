@@ -24,7 +24,7 @@ header {
   color: white;
   text-align: center;
   padding: 20%;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,20 +33,38 @@ header {
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 100px;
+  font-weight: 500;
   text-shadow: 4px 4px black;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.section-titles {
+  font-size: 85px;
+  font-weight: 400;
+  text-shadow: 4px 4px black;
+  color: whitesmoke;
+  text-align: center;
+}
+#sub-title {
+  font-size: 50px;
+  text-shadow: 4px 4px black;
+  color: whitesmoke;
+  text-align: center;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 30px;
 }
 
 li {
   display: inline;
   font-size: 32px;
   padding: 5px;
+  
 }
 
 li a {
@@ -60,15 +78,33 @@ li a:hover {
 
 /* ABOUT SECTION */
 
-#about {
+/* .row-about {
+  display: flex;
+} */
+
+/* Create three equal columns that sits next to each other */
+/* .column-about {
+  flex: 33.33%;
+  padding: 5px;
+} */
+
+#about-title {
+  color: black;
+  font-size: 45px;
   
+}
+
+#work,
+#about {
+
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
-  display: inline-block
+  display: inline-block;
+ 
 }
 
 #headshot {
@@ -77,13 +113,14 @@ li a:hover {
   display: flex;
   padding: 10px;
   justify-content: center;
+  
 
 }
 
 #headshot img {
   width: 20%;
-  border-radius: 50%;
-
+  object-fit:cover;
+  
 }
 
 article {
@@ -91,13 +128,13 @@ article {
 }
 
 #about-desc {
-  margin: 0px 60px;
+ margin: auto;
   padding-top: 10px;
   font-size: 20px;
 }
 
 .container {
-  padding:30px;
+  padding: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -109,22 +146,96 @@ article {
   height: 50%;
   width: 100%;
   border-radius: 5px;
-  box-shadow: 1px 2px 3px 4px rgba(12,12,12,0.2);
+  box-shadow: 2px 3px 4px 5px rgba(12, 12, 12, 0.2);
 }
 
-#about-btn>button{
+
+
+#about-btn>button {
   background-color: #7a1f22;
-    border: none;
-    color: white;
-    padding: 11px 50px;
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
 }
 
+
+button a {
+  text-decoration: none;
+  color: whitesmoke;
+}
 
 #about-btn>button:hover {
-  color: #ccf0c0;
+  background-color: #ccf0c0;
 }
+
+
+
+/* WORK SECTION */
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 300px;
+  
+}
+
+
+
+.row-work {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row-work,
+.row-work > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column-work {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row-work:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+ 
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column-work {
+    width: 50%;
+  }
+
+  .main {
+    padding-top: 800px;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-work {
+    width: 100%;
+  }
+
+  .main {
+    padding-top: 650px;
+  }
+}
+
+
+
