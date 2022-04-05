@@ -37,111 +37,170 @@
   </header>
 
 
-<!-- ABOUT SECTION -->
+  <!-- ABOUT SECTION -->
 
-<section id="about">
-  <h2 class="section-titles">About Me</h2>
-  <div class="container">
-    <div id="about-card" class="row-about">
+  <section id="about">
+    <h2 class="section-titles">About Me</h2>
+    <div class="container">
+      <div id="about-card">
 
-      <div class="column-about"id="headshot">
-        <img src="../assets/images/portfolio_headshot.png" />
+        <div class="column-about" id="headshot">
+          <img src="../assets/images/portfolio_headshot.png" />
+        </div>
+
+        <div id="about-desc">
+
+          <h2 id="about-title">Jess Varghese</h2>
+
+          <h3>Digital Media Professional | Front End Developer</h3>
+          <article>
+            <p>Over the last decade I’ve gained extensive experience within the digital media landscapes.</p>
+
+            <p>In my most recent role as an Account Executive for a physician healthcare marketing company, I managed
+              the
+              company’s portfolio of top hospital, medical device, and medical education clients and served as a key
+              advisor
+              in the implementation of their digital publishing platform and video content marketing strategy. In
+              addition, I
+              directed a cross functional team comprised of employees within our production, marketing, design, and
+              development departments. Prior to my promotion to Account Executive, I managed all stages of production,
+              produced live surgical webcasts to clinical round table discussions, and played a key role in editing web
+              and
+              video content for client websites as a senior video producer.</p>
+
+            <p>I recently earned a certificate in full-stack web development from the UConn Coding Bootcamp where I
+              developed
+              skills in HTML, JavaScript, CSS, React.js, Node.JS, and responsive web design. As an innovative problem
+              solver
+              passionate about developing apps, with a focus on mobile-first design and development, I am currently
+              looking
+              for opportunities to combine my experience with my new skills in full stack development.</p>
+
+            <p>Outside of work and learning about web development, I enjoy spending time with family, my dog Herbie,
+              traveling,
+              cooking, reading non-fiction books, and going to live concerts.</p>
+          </article>
+          <div id="about-btn">
+            <button><a href="#portfolio" role="button">Portfolio</button></a>
+            <button><a href="#contact" role="button">Contact Me</button></a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!--Work Section-->
+  <section class="main" id="portfolio">
+
+
+    <h2 class="section-titles">Portfolio</h2>
+    <div class="container">
+
+      <div class="content">
+        <a href="https://jessvarghese.github.io/Thankammas-Kitchen/">
+          <img src="/assets/images/tk_homepage.png" alt="Bear" style="width:100%" />
+          <h3>Thankamma's Kitchen</h3>
+        </a>
+        <p>Thankamma's Kitchen is a fictional restaurant multi-page website intended for the user to view a new
+          up-and-coming restaurant. The user can view visit info, contact information, menu, and can provide their email
+          address using the modal to stay up to date on restaurant news.</p>
+        <strong>Technologies: HTML, CSS, jQuery and Bootstrap</strong>
+        <div>
+          <i class="fa fa-brands fa-github fa-3x"><img class="github-logo" src="./assets/images/GitHub_Logo.png" /></i>
+
+        </div>
+
       </div>
 
-      <div id="about-desc" class="column-about">
-       
-        <h2 id="about-title">Jess Varghese</h2>
-       
-        <h3>Digital Media Professional | Front End Developer</h3>
-        <article>
-          <p>Over the last decade I’ve gained extensive experience within the digital media landscapes.</p>
+      <!-- END MAIN -->
+  </section>
 
-          <p>In my most recent role as an Account Executive for a physician healthcare marketing company, I managed
-            the
-            company’s portfolio of top hospital, medical device, and medical education clients and served as a key
-            advisor
-            in the implementation of their digital publishing platform and video content marketing strategy. In
-            addition, I
-            directed a cross functional team comprised of employees within our production, marketing, design, and
-            development departments. Prior to my promotion to Account Executive, I managed all stages of production,
-            produced live surgical webcasts to clinical round table discussions, and played a key role in editing web
-            and
-            video content for client websites as a senior video producer.</p>
+  <!-- Portfolio Gallery Grid -->
 
-          <p>I recently earned a certificate in full-stack web development from the UConn Coding Bootcamp where I
-            developed
-            skills in HTML, JavaScript, CSS, React.js, Node.JS, and responsive web design. As an innovative problem
-            solver
-            passionate about developing apps, with a focus on mobile-first design and development, I am currently
-            looking
-            for opportunities to combine my experience with my new skills in full stack development.</p>
+  <div class="row">
+    <div class="column">
+      <div class="content">
 
-          <p>Outside of work and learning about web development, I enjoy spending time with family, my dog Herbie,
-            traveling,
-            cooking, reading non-fiction books, and going to live concerts.</p>
-        </article>
-        <div id="about-btn">
-          <button><a href="/html/work.html" role="button">Portfolio</button></a>
-          <button><a href="/html/contact.html" role="button">Contact Me</button></a>
+        <img src="/assets/images/TPP.png" alt="Indian food" style="width:100%">
+        <h3>The Pet Project</h3>
+        <p>The Pet Project is a simple mobile-first application that allows a user to easily find a dog or cat to
+          potentially adopt. he user can cheese with a dog or cat to search for, as well as input their zip code to view
+          the distance between their location and the pet's location.</p>
+        <strong>Technologies: Bulma, RescueGroups.org API , ZipAPI.us</strong>
+        <div>
+          <i class="fa fa-brands fa-github fa-3x"><img class="github-logo" src="./assets/images/GitHub_Logo.png" /></i>
+
         </div>
       </div>
-     
-      
     </div>
+    <div class="column">
+      <div class="content">
+        <img src="/assets/images/weather_dashboard_thumb.png" alt="Lights" style="width:100%">
+        <h3>Weather Dashboard</h3>
+        <p>This application provides the user a way to easily search a city and have the current and five-day weather
+          forecast displayed on the dashboard.</p>
+        <strong>Technologies: jQuery, Moment.js, BULMA, HTML, Javascript</strong>
+        <div>
+          <i class="fa fa-brands fa-github fa-3x"><img class="github-logo" src="./assets/images/GitHub_Logo.png" /></i>
+
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="./assets/images/catmom.jpg" alt="Nature" style="width:100%">
+        <h3>Cat Mom Dot Com</h3>
+        <p>Who doesn’t love GIFs of cute cuddly cats? CatMom DotCom is a site intended for a user to login to view
+          random cat GIFs, facts and get specific info on a particular breed of cat.</p>
+        <strong>Technologies: Bcrypt, cookie parser, dotenv, express, express-handlebars, express session, handlebars,
+          morgan, mysql2, requirejs, sequelize, HTML, CSS, BULMA, Boostrap, Javascript</strong>
+          <div>
+            <i class="fa fa-brands fa-github fa-3x"><img class="github-logo" src="./assets/images/GitHub_Logo.png" /></i>
+           
+          </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <div class="content">
+          <img src="./assets/images/password_gen.png" alt="Mountains" style="width:100%">
+          <h3>Password Generator</h3>
+          <p>This application generates a random secure password based on the user's selected criteria.</p>
+          <strong>Technologies: Query, Moment.js, BULMA, HTML, Javascript</strong>
+          <div>
+            <i class="fa fa-brands fa-github fa-3x"><img class="github-logo" src="./assets/images/GitHub_Logo.png" /></i>
+           
+          </div>
+
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="./assets/images/common_unity.png" alt="Mountains" style="width:100%">
+          <h3>Common Unity Network
+          </h3>
+          <p>The Common Unity Network is a social application using a NoSQL database where you can create users, add
+            friends, share thoughts and reactions.</p>
+          <strong>Technologies: Express, Mongoose, Insomnia</strong>
+          <div>
+            <i class="fa fa-brands fa-github fa-3x"><img class="github-logo" src="./assets/images/GitHub_Logo.png" /></i>
+           
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- END GRID -->
+
+
   </div>
-</section>
 
-<!--Work Section-->
-<section id="portfolio" class="main">
 
-    
-  <h2 class="section-titles">Portfolio</h2>
-  <div class="container-work">
-
-  <div class="content">
-      <img src="/assets/images/tk_homepage.png" alt="Bear" style="width:100%"/>
-      <h3>Thankamma's Kitchen</h3>
-      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-    </div>
-    
-    <!-- END MAIN -->
-    </section>
-  
-  <!-- Portfolio Gallery Grid -->
-  <div class="row-work">
-    <div class="column-work">
-      <div class="content">
-        <img src="/assets/images/tk_homepage.png" alt="Indian food" style="width:100%">
-        <h3>Thankamma's Kitchen</h3>
-        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-      </div>
-    </div>
-    <div class="column-work">
-      <div class="content">
-      <img src="" alt="Lights" style="width:100%">
-        <h3>My Work</h3>
-        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-      </div>
-    </div>
-    <div class="column-work">
-      <div class="content">
-      <img src="" alt="Nature" style="width:100%">
-        <h3>My Work</h3>
-        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-      </div>
-    </div>
-    <div class="column-work">
-      <div class="content">
-      <img src="" alt="Mountains" style="width:100%">
-        <h3>My Work</h3>
-        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-      </div>
-    </div>
-  <!-- END GRID -->
-  </div>
-
-</div>
+  <section></section>
 </body>
 
 </html>
