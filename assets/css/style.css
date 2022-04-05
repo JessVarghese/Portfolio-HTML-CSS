@@ -205,12 +205,24 @@ button a {
 }
 
 .fa-github {
- padding: 50px 0 0 0;
+ 
+ color: black;
+}
+
+#github {
+
+  padding-top:20px;
+ 
 }
 
 .github-logo {
   width: 50px;
   height: 20px;
+}
+
+.github-btn{
+ 
+  box-shadow: 3px 2px 1px;
 }
  
 /* Responsive layout - makes a two column-layout instead of four columns */
