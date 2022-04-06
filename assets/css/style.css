@@ -204,9 +204,13 @@ button a {
   padding: 10px;
 }
 
-.fa-github {
+i {
  
  color: black;
+}
+
+i:hover {
+  color: #7a1f22;
 }
 
 #github {
@@ -221,7 +225,7 @@ button a {
 }
 
 .github-btn {
- background-color: #ccf0c0;
+ background-color: #f9e7cf;
   box-shadow: 3px 2px 1px;
 }
 
@@ -260,7 +264,7 @@ input[type=submit] {
 }
 
 input[type=reset] {
-  background-color: red;
+  background-color: #7a1f22;
   color: white;
   padding: 12px 20px;
   border: none;
