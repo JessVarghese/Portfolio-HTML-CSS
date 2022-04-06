@@ -26,7 +26,7 @@ gh repo clone JessVarghese/portfolio
 ## Usage
 
 
-![visuals](https://github.com/JessVarghese/portfolio/blob/main/assets/images/jv_portfolio_screenshot.png)
+![visuals](./assets/images/jmv_portfolio_v2.png)
 
 
 ## License
