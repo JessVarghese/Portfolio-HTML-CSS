@@ -28,7 +28,7 @@
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="/html/contact.html">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
 
           </ul>
         </nav>
@@ -99,7 +99,7 @@
     <div class="container">
 
       <div class="content">
-        <a href="https://jessvarghese.github.io/Thankammas-Kitchen/">
+        <a href="https://jessvarghese.github.io/Thankammas-Kitchen/" target="_blank">
           <img src="/assets/images/tk_homepage.png" alt="Bear" style="width:100%" />
           <h3>Thankamma's Kitchen</h3>
         </a>
@@ -109,7 +109,7 @@
         <strong>Technologies: HTML, CSS, jQuery and Bootstrap</strong>
         <div id="github">
           <button class="github-btn">
-          <a href="https://github.com/JessVarghese/Thankammas-Kitchen">
+          <a href="https://github.com/JessVarghese/Thankammas-Kitchen" target="_blank">
           <i class="fa fa-brands fa-github fa-3x"><img class="github-logo" src="./assets/images/GitHub_Logo.png" /></i>
           </a>
         </button>
@@ -166,7 +166,7 @@
         <p>Who doesn’t love GIFs of cute cuddly cats? CatMom DotCom is a site intended for a user to login to view
           random cat GIFs, facts and get specific info on a particular breed of cat.</p>
         <strong>Technologies: Bcrypt, cookie parser, dotenv, express, express-handlebars, express session, handlebars,
-          morgan, mysql2, requirejs, sequelize, HTML, CSS, BULMA, Boostrap, Javascript</strong>
+          morgan, mysql2, requirejs, sequelize, HTML, CSS, BULMA, Bootstrap, Javascript</strong>
           <div id="github">
             <button class="github-btn">
             <a href="https://github.com/Chis517/cat-mom-dotcom" target="_blank">
@@ -220,7 +220,43 @@
   </div>
 
 
-  <section></section>
+  <section id="contact">
+    <h2 class="section-titles">Contact</h2>
+    <div class="container">
+      
+      <div class="contact-row">
+        <h3 style="text-align: center;">Would you like to get in touch?</h3>
+        <ul style="text-align: center;">
+          <i class="fa fa-regular fa-envelope fa-3x fa-fw"></i>
+          <i class="fa fa-brands fa-github fa-3x fa-fw"></i>
+          <i class="fa fa-brands fa-linkedin fa-3x fa-fw"></i>
+          <i class="fa fa-solid fa-mobile fa-3x fa-fw"></i>
+       
+  
+        </ul>
+        
+      <form action="https://getform.io/f/e47512c3-bab4-486c-8133-a476272784c6" method="POST">
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="jane@email.com">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset Form"/>
+    
+      </form>
+        </div>
+      
+    </div>
+  </section>
 </body>
 
 </html>
